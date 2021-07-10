@@ -63,8 +63,8 @@ function createWindow() {
         width: 800,
         height: 600
     })
-
-    win.loadURL("http://127.0.0.1:8125")
+    win.setMenuBarVisibility(false);
+    win.loadURL("http://127.0.0.1:8125");
 }
 
 app.whenReady().then(() => {
