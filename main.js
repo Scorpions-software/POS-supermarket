@@ -8,3 +8,7 @@ function createWindow() {
 
     win.loadFile('./src/index.html')
 }
+
+app.whenReady().then(() => {
+    createWindow()
+})
